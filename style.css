@@ -31,16 +31,19 @@ body {
 .hero {
   display: flex;
   height: 500px;
+  overflow: hidden;
 }
 
 .hero-left {
   flex: 1;
-  background: url(papel-pastel.jpg) no-repeat center center;
+  background: url('papel-pastel.jpg') no-repeat left center;
   background-size: cover;
   padding: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  z-index: 1;
+  position: relative;
 }
 
 .hero-left .breadcrumbs {
@@ -68,12 +71,15 @@ body {
 
 .hero-right {
   flex: 1;
-  background: url(papel-de-fundo.jpg) no-repeat center center;
+  background: url('papel-de-fundo.jpg') no-repeat right center;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 50px;
+  z-index: 2;
+  position: relative;
+  clip-path: inset(0 0 0 0);
 }
 
 .login-box {
