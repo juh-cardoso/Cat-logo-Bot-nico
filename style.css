@@ -34,17 +34,6 @@ body {
   overflow: hidden;
 }
 
-.hero-left {
-  flex: 1;
-  background: url('papel-pastel.jpg') no-repeat left center;
-  background-size: cover;
-  padding: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  z-index: 1;
-  position: relative;
-}
 
 .hero-left .breadcrumbs {
   font-size: 0.9em;
@@ -71,7 +60,7 @@ body {
 
 .hero-right {
   flex: 1;
-  background: url('papel-de-fundo.jpg') no-repeat right center;
+  background: url(papel-de-parede.png) no-repeat right center;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -80,45 +69,4 @@ body {
   z-index: 2;
   position: relative;
   clip-path: inset(0 0 0 0);
-}
-
-.login-box {
-  background-color: #a08966;
-  padding: 30px;
-  border-radius: 5px;
-  text-align: center;
-  width: 200px;
-}
-
-.login-box .icon {
-  font-size: 2em;
-  margin-bottom: 1em;
-}
-
-.login-box button {
-  display: block;
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px;
-  background-color: #6e574b;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  font-weight: bold;
-  font-family: 'Alfa Slab One', serif;
-  cursor: pointer;
-}
-
-.galeria {
-  background: url('papel-pastel.jpg') repeat;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1em;
-  padding: 2em;
-}
-
-.caixa {
-  background-color: #b79c7b;
-  height: 150px;
-  border-radius: 5px;
 }
