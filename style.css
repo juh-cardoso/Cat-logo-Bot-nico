@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background: url(img/papel-de-parede.png) no-repeat center top;
+  background: url("img/papel-de-parede.png") no-repeat center top;
   background-size: cover;
   background-attachment: fixed;
   color: #4e3d36;
@@ -57,14 +57,16 @@ body {
 
 .hero-left button {
   margin-top: 1.5em;
-  padding: 10px 20px;
+  padding: 18px 36px;
+  font-size: 1.3em;
   background-color: #6e574b;
   color: white;
   border: none;
-  border-radius: 20px;
+  border-radius: 30px;
   font-weight: bold;
   font-family: 'Alfa Slab One', serif;
   cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .hero-right {
@@ -77,10 +79,93 @@ body {
 
 .login-box {
   background-color: #a08966;
-  padding: 30px;
+  padding: 20px;
   border-radius: 5px;
   text-align: center;
   width: 200px;
+}
+
+.login-box .icon {/* style.css */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: url("img/papel-de-parede.png") no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #4e3d36;
+}
+
+.navbar {
+  background-color: #4e3d36cc;
+  padding: 10px 0;
+  text-align: center;
+  backdrop-filter: blur(2px);
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: no…;
+}
+
+.login-box .icon {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.login-box button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #6e574b;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-family: 'Alfa Slab One', serif;
+  cursor: pointer;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr)/* style.css */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: url("img/papel-de-parede.png") no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #4e3d36;
+}
+
+.navbar {
+  background-color: #4e3d36cc;
+  padding: 10px 0;
+  text-align: center;
+  backdrop-filter: blur(2px);
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: no…;
 }
 
 .login-box .icon {
@@ -112,5 +197,47 @@ body {
 .caixa {
   background-color: #b79c7b;
   height: 150px;
+  border-radius: 5px;
+}
+;
+  gap: 1em;
+  padding: 2em;
+}
+
+.caixa {
+  background-color: #b79c7b;
+  height: 150px;
+  border-radius: 5px;
+}
+
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+
+.login-box button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+  background-color: #6e574b;
+  color: white;
+  border: none;
+  border-radius: 18px;
+  font-weight: bold;
+  font-family: 'Alfa Slab One', serif;
+  cursor: pointer;
+}
+
+.galeria {
+  background: url("img/papel-de-parede.png") repeat;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+  padding: 1em 2em;
+}
+
+.caixa {
+  background-color: #b79c7b;
+  height: 130px;
   border-radius: 5px;
 }
