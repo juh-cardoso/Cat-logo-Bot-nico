@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   background-color: #d2b49c;
-  background-image: url('papel-de-fundo.jpg');
+  background-image: url(papel-pastel.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -35,7 +35,7 @@ body {
 .hero {
   display: flex;
   height: 500px;
-  background: linear-gradient(to right, rgba(224, 201, 166, 0.9) 50%, rgba(0, 0, 0, 0.5) 50%), url('fundo-flores.jpg');
+  background: linear-gradient(to right, rgba(224, 201, 166, 0.9) 50%, rgba(0, 0, 0, 0.5) 50%), url('papel-de-fundo.jpg');
   background-size: cover;
   background-position: center;
 }
