@@ -2,12 +2,19 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #d8bfa8;
+  background: url("img.papel-de-fundo.png") no-repeat center center fixed;
+  background-size: cover;
   color: #4e3d36;
 }
 
+img {
+  vertical-align: middle;
+  height: 20px;
+  margin-right: 8px;
+}
+
 .navbar {
-  background-color: #4e3d36;
+  background-color: rgba(78, 61, 54, 0.95);
   padding: 10px 0;
 }
 
@@ -25,20 +32,18 @@ body {
   font-weight: bold;
   font-family: 'Alfa Slab One', serif;
   padding: 0 15px;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
 }
 
 .hero {
   display: flex;
   min-height: 500px;
-  background-color: #d8bfa8;
 }
 
 .hero-left {
   flex: 1;
   padding: 60px;
-  background: url('papel-textura.jpg');
-  background-size: cover;
   color: #4e3d36;
   display: flex;
   flex-direction: column;
@@ -67,13 +72,12 @@ body {
   font-family: 'Alfa Slab One', serif;
   cursor: pointer;
   font-size: 1em;
+  display: inline-flex;
+  align-items: center;
 }
 
 .hero-right {
   flex: 1;
-  background: url('flores-estilo-oleo.jpg');
-  background-size: cover;
-  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,10 +92,9 @@ body {
   width: 220px;
 }
 
-.login-box .icon {
-  font-size: 3em;
+.login-box .icon img {
+  height: 40px;
   margin-bottom: 1em;
-  color: white;
 }
 
 .login-box button {
@@ -106,13 +109,21 @@ body {
   font-family: 'Alfa Slab One', serif;
   cursor: pointer;
   font-size: 0.95em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box button img {
+  height: 20px;
+  margin-right: 8px;
 }
 
 .galeria {
   display: flex;
   justify-content: space-around;
   padding: 40px;
-  background-color: #c6a889;
+  background-color: rgba(198, 168, 137, 0.85);
 }
 
 .caixa {
