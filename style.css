@@ -32,8 +32,10 @@ body {
 
 .header-image {
   width: 100%;
-  display: block;
   height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
 .hero {
