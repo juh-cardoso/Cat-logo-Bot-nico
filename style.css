@@ -1,15 +1,13 @@
-
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  background-color: #fff;
   color: #4e3d36;
 }
 
 .navbar {
   background-color: #4e3d36;
   padding: 10px 0;
-  position: relative;
-  z-index: 2;
 }
 
 .navbar ul {
@@ -35,113 +33,17 @@ body {
   margin-right: 8px;
 }
 
-.conteudo {
-  background: url("img/papel-de-parede.png") no-repeat center top;
-  background-size: cover;
-  min-height: 100vh;
-  padding: 0 0 60px;
-}
-
-.hero {
-  display: flex;
-  padding: 60px;
-}
-
-.hero-left {
-  flex: 1;
-  padding: 20px;
-  color: #4e3d36;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.hero-left .breadcrumbs {
-  font-size: 0.9em;
-  font-weight: bold;
-  opacity: 0.8;
-  margin-bottom: 1em;
-}
-
-.hero-left h1 {
-  font-size: 2.8em;
-  font-family: 'Alfa Slab One', serif;
-  margin: 0 0 1em;
-}
-
-.hero-left button {
-  background-color: #6e574b;
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 30px;
-  font-family: 'Alfa Slab One', serif;
-  cursor: pointer;
-  font-size: 1em;
-  display: inline-flex;
-  align-items: center;
-}
-
-.hero-left button img {
-  height: 20px;
-  margin-right: 8px;
-}
-
-.hero-right {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-}
-
-.login-box {
-  background-color: #b49e7a;
-  padding: 30px;
-  border-radius: 4px;
-  text-align: center;
-  width: 220px;
-}
-
-.login-box .icon img {
-  height: 40px;
-  margin-bottom: 1em;
-}
-
-.login-box button {
+.banner {
   width: 100%;
-  margin: 8px 0;
-  padding: 10px;
-  background-color: #6e574b;
-  color: white;
-  border: none;
-  border-radius: 25px;
-  font-weight: bold;
-  font-family: 'Alfa Slab One', serif;
-  cursor: pointer;
-  font-size: 0.95em;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #eee;
+  padding: 0;
 }
 
-.login-box button img {
-  height: 20px;
-  margin-right: 8px;
-}
-
-.caixas-base {
-  display: flex;
-  justify-content: center;
-  gap: 37px;
-  padding: 40px;
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.caixa {
-  width: 200px;
-  height: 150px;
-  background-color: #a1866f;
-  border-radius: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+.imagem-banner {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  display: block;
 }
