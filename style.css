@@ -1,44 +1,45 @@
-/* style.css */
+<!-- style.css -->
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background: url("img/papel-de-parede.png") no-repeat center top;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #d8bfa8;
   color: #4e3d36;
 }
 
 .navbar {
-  background-color: #4e3d36cc;
+  background-color: #4e3d36;
   padding: 10px 0;
-  text-align: center;
-  backdrop-filter: blur(2px);
 }
 
 .navbar ul {
+  display: flex;
+  justify-content: center;
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 2em;
 }
 
-.navbar a {
+.navbar ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
   font-family: 'Alfa Slab One', serif;
+  padding: 0 15px;
+  display: inline-block;
 }
 
 .hero {
   display: flex;
-  height: 500px;
+  min-height: 500px;
+  background-color: #d8bfa8;
 }
 
 .hero-left {
   flex: 1;
-  padding: 50px;
+  padding: 60px;
+  background: url('papel-textura.jpg');
+  background-size: cover;
+  color: #4e3d36;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,184 +47,77 @@ body {
 
 .hero-left .breadcrumbs {
   font-size: 0.9em;
+  font-weight: bold;
+  opacity: 0.8;
   margin-bottom: 1em;
 }
 
 .hero-left h1 {
   font-size: 2.8em;
   font-family: 'Alfa Slab One', serif;
-  margin: 0;
+  margin: 0 0 1em;
 }
 
 .hero-left button {
-  margin-top: 1.5em;
-  padding: 18px 36px;
-  font-size: 1.3em;
   background-color: #6e574b;
   color: white;
   border: none;
+  padding: 12px 24px;
   border-radius: 30px;
-  font-weight: bold;
   font-family: 'Alfa Slab One', serif;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  font-size: 1em;
 }
 
 .hero-right {
   flex: 1;
+  background: url('flores-estilo-oleo.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px;
+  padding: 60px;
 }
 
 .login-box {
-  background-color: #a08966;
-  padding: 20px;
-  border-radius: 5px;
+  background-color: #b49e7a;
+  padding: 30px;
+  border-radius: 4px;
   text-align: center;
-  width: 200px;
-}
-
-.login-box .icon {/* style.css */
-body {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  background: url("img/papel-de-parede.png") no-repeat center top;
-  background-size: cover;
-  background-attachment: fixed;
-  color: #4e3d36;
-}
-
-.navbar {
-  background-color: #4e3d36cc;
-  padding: 10px 0;
-  text-align: center;
-  backdrop-filter: blur(2px);
-}
-
-.navbar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 2em;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: no…;
+  width: 220px;
 }
 
 .login-box .icon {
-  font-size: 2em;
+  font-size: 3em;
   margin-bottom: 1em;
+  color: white;
 }
 
 .login-box button {
-  display: block;
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px;
-  background-color: #6e574b;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  font-weight: bold;
-  font-family: 'Alfa Slab One', serif;
-  cursor: pointer;
-}
-
-.galeria {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr)/* style.css */
-body {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  background: url("img/papel-de-parede.png") no-repeat center top;
-  background-size: cover;
-  background-attachment: fixed;
-  color: #4e3d36;
-}
-
-.navbar {
-  background-color: #4e3d36cc;
-  padding: 10px 0;
-  text-align: center;
-  backdrop-filter: blur(2px);
-}
-
-.navbar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 2em;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: no…;
-}
-
-.login-box .icon {
-  font-size: 2em;
-  margin-bottom: 1em;
-}
-
-.login-box button {
-  display: block;
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px;
-  background-color: #6e574b;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  font-weight: bold;
-  font-family: 'Alfa Slab One', serif;
-  cursor: pointer;
-}
-
-.galeria {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1em;
-  padding: 2em;
-}
-
-.caixa {
-  background-color: #b79c7b;
-  height: 150px;
-  border-radius: 5px;
-}
-;
-  gap: 1em;
-  padding: 2em;
-}
-
-.caixa {
-  background-color: #b79c7b;
-  height: 150px;
-  border-radius: 5px;
-}
-
-  font-size: 2.5em;
-  margin-bottom: 1em;
-}
-
-.login-box button {
-  display: block;
   width: 100%;
   margin: 8px 0;
-  padding: 8px;
+  padding: 10px;
   background-color: #6e574b;
   color: white;
   border: none;
-  border-radius: 18px;
+  border-radius: 25px;
   font-weight: bold;
   font-family: 'Alfa Slab One', serif;
   cursor: pointer;
+  font-size: 0.95em;
+}
+
+.galeria {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: #c6a889;
+}
+
+.caixa {
+  width: 20%;
+  height: 150px;
+  background-color: #a1866f;
+  border-radius: 5px;
 }
