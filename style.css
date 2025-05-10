@@ -2,12 +2,12 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background: url("img/papel-de-fundo.png") no-repeat center center fixed;
+  background: url("img/papel-de-fundo.jpg") no-repeat center center fixed;
   background-size: cover;
   color: #4e3d36;
 }
 
-"img/papel-de-fundo.png" {
+img {
   vertical-align: middle;
   height: 20px;
   margin-right: 8px;
