@@ -1,15 +1,9 @@
 
-.fundo {
-  background: url("img/papel-de-parede.png");
-  background-size: cover;
-  position: relative;
-  padding-top: 0; /* sem sobreposição com a navbar */
-}
-
-img {
-  vertical-align: middle;
-  height: 20px;
-  margin-right: 8px;
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #4e3d36;
+  background-color: #fff;
 }
 
 .navbar {
@@ -37,14 +31,26 @@ img {
   align-items: center;
 }
 
+.navbar img {
+  height: 20px;
+  margin-right: 8px;
+}
+
+.conteudo {
+  background: url("img/papel-de-parede.png") no-repeat center top;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 0 0 60px;
+}
+
 .hero {
   display: flex;
-  min-height: 500px;
+  padding: 60px;
 }
 
 .hero-left {
   flex: 1;
-  padding: 60px;
+  padding: 20px;
   color: #4e3d36;
   display: flex;
   flex-direction: column;
@@ -87,7 +93,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 60px;
+  padding: 20px;
 }
 
 .login-box {
@@ -125,11 +131,12 @@ img {
   margin-right: 8px;
 }
 
-.galeria {
+.caixas-base {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 37px;
   padding: 40px;
-  background-color: rgba(198, 168, 137, 0.85);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .caixa {
