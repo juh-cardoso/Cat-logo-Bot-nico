@@ -1,8 +1,7 @@
 
 .fundo {
-  background: url("img/papel-de-parede.png") no-repeat center top;
+  background: url("img/papel-de-parede.png");
   background-size: cover;
-  min-height: 100vh;
   position: relative;
   padding-top: 0; /* sem sobreposição com a navbar */
 }
