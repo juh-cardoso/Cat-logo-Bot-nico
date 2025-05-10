@@ -1,49 +1,124 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #fff;
+  background-color: #d2b49c;
   color: #4e3d36;
 }
 
 .navbar {
   background-color: #4e3d36;
   padding: 10px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .navbar ul {
-  display: flex;
-  justify-content: center;
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
 }
 
-.navbar ul li a {
+.navbar a {
   color: white;
   text-decoration: none;
   font-weight: bold;
   font-family: 'Alfa Slab One', serif;
-  padding: 0 15px;
-  display: inline-flex;
-  align-items: center;
 }
 
-.navbar img {
-  height: 20px;
-  margin-right: 8px;
-}
-
-.banner {
+.header-image {
   width: 100%;
-  text-align: center;
-  margin: 0 auto;
-  background-color: #eee;
-  padding: 0;
-}
-
-.imagem-banner {
-  width: 100%;
-  max-height: 500px;
-  object-fit: cover;
   display: block;
+  height: auto;
 }
+
+.hero {
+  display: flex;
+  background-color: #e0c9a6;
+  height: auto;
+  padding: 50px 0;
+}
+
+.hero-left {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-left .breadcrumbs {
+  font-size: 0.9em;
+  margin-bottom: 1em;
+}
+
+.hero-left h1 {
+  font-size: 2.8em;
+  font-family: 'Alfa Slab One', serif;
+  margin: 0;
+}
+
+.hero-left button {
+  margin-top: 1.5em;
+  padding: 10px 20px;
+  background-color: #6e574b;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-family: 'Alfa Slab One', serif;
+  cursor: pointer;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.login-box {
+  background-color: #a08966;
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+}
+
+.login-box .icon {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.login-box button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #6e574b;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-family: 'Alfa Slab One', serif;
+  cursor: pointer;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+  padding: 2em;
+}
+
+.caixa {
+  background-color: #b79c7b;
+  height: 150px;
+  border-radius: 5px;
+}
+
