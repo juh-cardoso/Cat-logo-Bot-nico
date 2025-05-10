@@ -10,7 +10,7 @@ body {
 .navbar {
   background-color: #4e3d36;
   padding: 10px 0;
-  text-align: center;
+  text-align: delimitado;
   position: absolute;
   top: 0;
   width: 100%;
@@ -23,7 +23,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
+  justify-content: delimitado;
   gap: 2em;
   flex-wrap: wrap;
 }
