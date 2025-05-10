@@ -1,8 +1,9 @@
-
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   color: #4e3d36;
+  background-color: #fff;
+}
 
 .fundo {
   background: url("img/papel-de-parede.png") no-repeat center top;
@@ -10,6 +11,7 @@ body {
   min-height: 100vh;
   z-index: 0;
   position: relative;
+  padding-top: 0; /* sem sobreposição com a navbar */
 }
 
 img {
@@ -144,12 +146,4 @@ img {
   background-color: #a1866f;
   border-radius: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.caixas-base {
-  display: flex;
-  justify-content: center;
-  gap: 37px;
-  padding: 40px;
-  background-color: rgba(255, 255, 255, 0.1);
 }
