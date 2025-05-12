@@ -126,7 +126,7 @@ h1 {
 
 .card {
   background-color: #ac9276;
-  height: 350px;
+  height: 150px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
