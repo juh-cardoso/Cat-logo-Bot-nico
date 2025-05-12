@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-  background-color: #713112;
+  background-color: #000000;
   color: white;
   padding: 10px 0;
   text-align: center;
@@ -13,11 +13,11 @@ nav {
 
 nav ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
   justify-content: center;
   gap: 30px;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
@@ -25,6 +25,15 @@ nav a {
   color: white;
   font-weight: bold;
   font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
 }
 
 .hero {
@@ -34,7 +43,7 @@ nav a {
 
 .left {
   flex: 1;
-  background: url("img/papel.jpg"); /* imagem de fundo tipo papel antigo */
+  background: url("img/papel.jpg");
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -82,8 +91,9 @@ h1 {
   text-align: center;
 }
 
-.user-icon {
-  font-size: 40px;
+.user-icon img {
+  width: 60px;
+  height: 60px;
   margin-bottom: 20px;
 }
 
