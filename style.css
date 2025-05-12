@@ -108,6 +108,12 @@ h1 {
   border: none;
   border-radius: 20px;
 }
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #d0b090;
+}
 
 .card {
   background-color: #ac9276;
