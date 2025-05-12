@@ -111,18 +111,36 @@ h1 {
 
 .cards {
   display: flex;
-  justify-content: space-around;
-  padding: 30px;
-  background-color: #d3b99c;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 40px 20px;
+  background-color: #d0b090;
+  gap: 20px;
+  flex-wrap: wrap;
 }
-.card-content {
+
+.card-link {
+  text-decoration: none;
+  width: 22%;
+}
+
+.card {
+  background-color: #ac9276;
+  height: 350px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 20px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
 }
 
 .card-icon {
-  width: 40px;
+  width: 50px;
   height: auto;
   margin-bottom: 10px;
 }
@@ -130,12 +148,7 @@ h1 {
 .card-title {
   font-weight: bold;
   font-size: 20px;
+  color: #2e1b0f;
   font-family: 'Georgia', serif;
 }
 
-.card {
-  width: 22%;
-  height: 350px; /* antes era 150px */
-  background-color: #ac9276;
-  border-radius: 5px;
-}
