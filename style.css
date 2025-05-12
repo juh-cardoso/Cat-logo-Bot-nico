@@ -1,143 +1,104 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+}
+
 body {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  background-color: #d2b49c;
-  color: #4e3d36;
-  background-image: url("img/papel-de-parede.png");
+  background-color: #d9bfa4;
+  color: white;
 }
 
-.navbar {
-  background-color: #4e3d36;
-  padding: 10px 0;
-  text-align: delimitado;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 10;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+header {
+  background-color: transparent;
+  padding: 10px 20px;
 }
 
-.navbar ul {
+.menu {
+  display: flex;
+  justify-content: center;
   list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: delimitado;
-  gap: 2em;
-  flex-wrap: wrap;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
+  gap: 20px;
   font-weight: bold;
-  font-family: 'Alfa Slab One', serif;
-  font-size: 1em;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.container {
   display: flex;
-  align-items: center;
-  gap: 0.3em;
+  height: 70vh;
 }
 
-.header-image {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  z-index: 1;
-}
-
-.hero {
-  display: flex;
-  background-color: #e0c9a6;
-  padding: 50px 0;
-  flex-wrap: wrap;
-  margin-top: -60px; /* sobe o conteúdo pra acompanhar a imagem */
-  position: relative;
-  z-index: 2;
-}
-
-.hero-left {
+.intro {
+  background: url("img/papel-de-parede.png") no-repeat center center;
+  background-size: cover;
   flex: 1;
-  padding: 50px;
-  min-width: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.hero-left .breadcrumbs {
-  font-size: 0.9em;
-  margin-bottom: 1em;
-  font-weight: bold;
-}
-
-.hero-left h1 {
-  font-size: 2.8em;
-  font-family: 'Alfa Slab One', serif;
-  margin: 0;
-}
-
-.hero-left button {
-  margin-top: 1.5em;
-  padding: 12px 24px;
-  background-color: #6e574b;
+  padding: 40px;
   color: white;
+}
+
+.intro .breadcrumb {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.intro .btn {
+  background-color: #5e4a3b;
+  color: white;
+  padding: 12px 20px;
   border: none;
-  border-radius: 30px;
   font-weight: bold;
-  font-family: 'Alfa Slab One', serif;
+  font-size: 1rem;
+  border-radius: 30px;
   cursor: pointer;
-  font-size: 1em;
-}
-
-.hero-right {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 50px;
-  min-width: 300px;
 }
 
 .login-box {
-  background-color: #a08966;
-  padding: 30px;
-  border-radius: 5px;
-  text-align: center;
-  width: 200px;
+  background-color: #b79e78;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  min-width: 250px;
+  justify-content: center;
 }
 
 .login-box .icon {
-  font-size: 2em;
-  margin-bottom: 1em;
+  font-size: 2.5rem;
 }
 
-.login-box button {
-  display: block;
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px;
-  background-color: #6e574b;
+.login-box .btn {
+  background-color: #5e4a3b;
   color: white;
   border: none;
-  border-radius: 20px;
+  padding: 10px 20px;
+  border-radius: 30px;
   font-weight: bold;
-  font-family: 'Alfa Slab One', serif;
   cursor: pointer;
+  width: 100%;
+  text-align: center;
 }
 
-.galeria {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1em;
-  padding: 2em;
+.gallery {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  background-color: #d9bfa4;
 }
 
-.caixa {
-  background-color: #b79c7b;
+.card {
+  background-color: #a5856c;
+  width: 200px;
   height: 150px;
-  border-radius: 5px;
 }
