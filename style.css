@@ -130,6 +130,9 @@ h1 {
   font-family: 'Georgia', serif;
   transition: transform 0.2s ease;
 }
+.card:hover {
+  transform: scale(1.03);
+}
 
 .card-icon {
   width: 48px;
