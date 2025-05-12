@@ -93,11 +93,81 @@ h1 {
 
 .user-icon img {
   width: 60px;
-  height: 60px;
+  height: 60px;.card.especial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* muda para flex-start para deixar espaço para a lista */
+  text-align: center;
+  height: 350px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.card-title {
+  font-size: 1.4em;
+  margin: 10px 0;
+}
+
+.card-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.card-links li {
+  margin: 5px 0;
+}
+
+.card-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.card-links a:hover {
+  text-decoration: underline;
+  color: #4b3d2f;
+}
   margin-bottom: 20px;
 }
 
-.login-card button {
+.login-card button {.card.especial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* muda para flex-start para deixar espaço para a lista */
+  text-align: center;
+  height: 350px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.card-title {
+  font-size: 1.4em;
+  margin: 10px 0;
+}
+
+.card-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.card-links li {
+  margin: 5px 0;
+}
+
+.card-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.card-links a:hover {
+  text-decoration: underline;
+  color: #4b3d2f;
+}
   display: block;
   width: 100%;
   margin: 10px 0;
@@ -143,4 +213,40 @@ h1 {
 .card-title {
   font-weight: bold;
   font-size: 20px;
+}
+.card.especial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* muda para flex-start para deixar espaço para a lista */
+  text-align: center;
+  height: 350px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.card-title {
+  font-size: 1.4em;
+  margin: 10px 0;
+}
+
+.card-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.card-links li {
+  margin: 5px 0;
+}
+
+.card-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.card-links a:hover {
+  text-decoration: underline;
+  color: #4b3d2f;
 }
