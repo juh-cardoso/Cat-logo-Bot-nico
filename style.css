@@ -124,7 +124,7 @@ h1 {
   background-color: #ac9276;
   border-radius: 20px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 175px;
   text-decoration: none;
   color: #2e1b0f;
   font-family: 'Georgia', serif;
@@ -137,7 +137,7 @@ h1 {
 
 .card-icon {
   width: 48px;
-  height: auto;
+  height: 150px;
   margin-bottom: 10px;
 }
 
