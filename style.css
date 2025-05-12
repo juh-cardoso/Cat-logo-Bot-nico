@@ -108,6 +108,21 @@ h1 {
   border: none;
   border-radius: 20px;
 }
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  background-color: #d3b99c;
+}
+
+.card {
+  width: 22%;
+  height: 350px;
+  background-color: #ac9276;
+  border-radius: 5px;
+}
+
 .cards {
   display: flex;
   justify-content: space-around;
@@ -118,7 +133,7 @@ h1 {
 .card {
   background-color: #ac9276;
   width: 22%;
-  height: 350px; /* já ajustado como retângulo em pé */
+  height: 300px; /* já ajustado como retângulo em pé */
   border-radius: 20px;
   display: flex;
   align-items: flex-start; /* conteúdo no topo */
