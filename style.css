@@ -6,7 +6,7 @@ body, html {
 }
 
 .background {
-  background-image: url("img/papel-de-parede.png"); /* Substitua pelo nome correto da imagem */
+  background-image: url("img/papel-de-parede.png");
   background-size: cover;
   background-position: center;
   position: fixed;
@@ -101,7 +101,7 @@ body, html {
 
 .login-box button {
   display: block;
-  width: 100%;
+  width: 100%;</div>
   margin: 10px 0;
   padding: 10px;
   background-color: #6e574b;
