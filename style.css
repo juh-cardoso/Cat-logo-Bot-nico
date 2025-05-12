@@ -16,3 +16,91 @@ body {
   background-repeat: no-repeat;
   position: relative;
 }
+
+.navbar {
+  background: transparent;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.hero {
+  display: flex;
+  height: 500px;
+}
+
+
+.trilha {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.lado-esquerdo h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.botao-especies {
+  background-color: #5e4a3b;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.login-box {
+  background-color: #b79e78;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border-radius: 0;
+  min-width: 250px;
+}
+
+.login-box .avatar {
+  font-size: 40px;
+}
+
+.login-box button {
+  background-color: #5e4a3b;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 25px;
+  border-radius: 30px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.galeria {
+  display: flex;
+  justify-content: space-around;
+  background-color: #d9bfa4;
+  padding: 20px;
+}
+
+.galeria div {
+  background-color: #a5856c;
+  width: 300px;
+  height: 200px;
+}
