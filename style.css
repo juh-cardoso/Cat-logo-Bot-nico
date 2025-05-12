@@ -109,6 +109,13 @@ h1 {
   border-radius: 20px;
 }
 
+.card {
+  width: 22%;
+  height: 350px; /* antes era 150px */
+  background-color: #ac9276;
+  border-radius: 5px;
+}
+
 .cards {
   display: flex;
   justify-content: space-around;
