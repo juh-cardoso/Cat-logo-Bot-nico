@@ -109,27 +109,6 @@ h1 {
   border-radius: 20px;
 }
 
-.cards {
-  display: flex;
-  justify-content: space-around;
-  padding: 30px;
-  background-color: #d3b99c;
-}
-
-.card {
-  width: 22%;
-  height: 350px; /* antes era 150px */
-  background-color: #ac9276;
-  border-radius: 5px;
-}
-
-.cards {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-  background-color: #d0b090;
-}
-
 .card {
   background-color: #ac9276;
   width: 22%;
