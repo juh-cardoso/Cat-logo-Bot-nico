@@ -1,37 +1,30 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body, html {
-  height: 100%;
-  font-family: 'Open Sans', sans-serif;
-}
-
 body {
-  background-image:url("img/papel-de-parede.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #d3b99c;
 }
 
-.navbar {
-  background: transparent;
+nav {
+  background-color: #5e2e25;
+  color: white;
   padding: 10px 0;
   text-align: center;
 }
 
-.navbar ul {
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   justify-content: center;
-  list-style: none;
   gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
   font-weight: bold;
   font-size: 18px;
-  color: white;
-  text-shadow: 1px 1px 2px black;
 }
 
 .hero {
@@ -39,68 +32,83 @@ body {
   height: 500px;
 }
 
+.left {
+  flex: 1;
+  background: url("img/papel.jpg"); /* imagem de fundo tipo papel antigo */
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-.trilha {
+.breadcrumbs {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
+  color: white;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+  margin: 20px 0;
+  line-height: 1.2;
+}
+
+.conheca-btn {
+  background-color: #5e4b44;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 25px;
+  width: fit-content;
+}
+
+.right {
+  flex: 1;
+  background: url("img/flores.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background-color: #bfa77c;
+  padding: 30px;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+
+.user-icon {
+  font-size: 40px;
   margin-bottom: 20px;
 }
 
-.lado-esquerdo h1 {
-  font-size: 48px;
-  font-weight: 900;
-  line-height: 1.2;
-  margin-bottom: 30px;
-}
-
-.botao-especies {
-  background-color: #5e4a3b;
-  color: white;
-  border: none;
-  padding: 15px 30px;
-  border-radius: 30px;
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-
-.login-box {
-  background-color: #b79e78;
-  padding: 40px 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-  border-radius: 0;
-  min-width: 250px;
-}
-
-.login-box .avatar {
-  font-size: 40px;
-}
-
-.login-box button {
-  background-color: #5e4a3b;
-  color: white;
-  border: none;
-  font-weight: bold;
-  font-size: 18px;
-  padding: 10px 25px;
-  border-radius: 30px;
+.login-card button {
+  display: block;
   width: 100%;
-  cursor: pointer;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #5e4b44;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
 }
 
-.galeria {
+.cards {
   display: flex;
   justify-content: space-around;
-  background-color: #d9bfa4;
-  padding: 20px;
+  padding: 30px;
+  background-color: #d3b99c;
 }
 
-.galeria div {
-  background-color: #a5856c;
-  width: 300px;
-  height: 200px;
+.card {
+  width: 22%;
+  height: 150px;
+  background-color: #ac9276;
+  border-radius: 5px;
 }
