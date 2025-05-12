@@ -123,17 +123,10 @@ h1 {
   border-radius: 5px;
 }
 
-.cards {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-  background-color: #d0b090;
-}
-
 .card {
   background-color: #ac9276;
   width: 22%;
-  height: 300px; /* já ajustado como retângulo em pé */
+  height: 350px; /* já ajustado como retângulo em pé */
   border-radius: 20px;
   display: flex;
   align-items: flex-start; /* conteúdo no topo */
