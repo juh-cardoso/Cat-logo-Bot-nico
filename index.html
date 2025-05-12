@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -6,38 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Catalogus Botanicus</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar">
-    <ul>
-      <li><a href="#"><img src="inicio.png" alt="Início"> Início</a></li>
-      <li><a href="#"><img src="sobre.png" alt="Sobre"> Sobre</a></li>
-      <li><a href="#"><img src="especies.png" alt="Espécies"> Espécies</a></li>
-      <li><a href="#"><img src="projetos.png" alt="Projetos"> Projetos</a></li>
-      <li><a href="#"><img src="blog.png" alt="Blog"> Blog</a></li>
-      <li><a href="#"><img src="img/grupo-de-usuarios.png" alt="Contato"> Contato</a></li>
-    </ul>
-  </nav>
-
-  <header class="hero">
-    <div class="hero-left">
-      <p class="breadcrumbs">E-Book / Catálogo / Suporte</p>
-      <h1>Catalogus botanicus<br>Site de Estudos</h1>
-      <button><img src="conheca.png" alt="Conheça"> Conheça as Espécies</button>
-    </div>
-    <div class="hero-right">
-      <div class="login-box">
-        <div class="icon"><img src="img/pessoa.png" alt="Conta"></div>
-
-
-        <button><img src="entrar.png" alt="Entrar"> entrar</button>
-        <button><img src="cadastrar.png" alt="Cadastrar"> Cadastrar</button>
-        <button><img src="membro.png" alt="Membro"> Membro</button>
-        <button><img src="premium.png" alt="Premium"> Premium</button>
-      </div>
-    </div>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li>🏠 Início</li>
+        <li>❕ Sobre</li>
+        <li>🦋 Espécies</li>
+        <li>📋 Projetos</li>
+        <li>📝 Blog</li>
+        <li>👤 Contato</li>
+      </ul>
+    </nav>
   </header>
-</html>
 
+  <main class="container">
+    <section class="intro">
+      <p class="breadcrumb">E-Book / Catálogo / Suporte</p>
+      <h1>Catalogus botanicus<br><span>Site de Estudos</span></h1>
+      <button class="btn">Conheça as Espécies</button>
+    </section>
+
+    <aside class="login-box">
+      <div class="icon">👤</div>
+      <button class="btn">entrar</button>
+      <button class="btn">Cadastrar</button>
+      <button class="btn">Membro</button>
+      <button class="btn">Premium</button>
+    </aside>
+  </main>
+
+  <section class="gallery">
+    <div class="card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+  </section>
+</body>
+</html>
 
