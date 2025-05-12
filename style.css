@@ -115,14 +115,6 @@ h1 {
   padding: 30px;
   background-color: #d3b99c;
 }
-
-.card {
-  width: 22%;
-  height: 350px;
-  background-color: #ac9276;
-  border-radius: 5px;
-}
-
 .card-content {
   display: flex;
   flex-direction: column;
