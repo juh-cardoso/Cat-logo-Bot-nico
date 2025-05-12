@@ -118,7 +118,7 @@ h1 {
 
 .card {
   width: 22%;
-  height: 300px; /* antes era 150px */
+  height: 500px; /* antes era 150px */
   background-color: #ac9276;
   border-radius: 5px;
 }
