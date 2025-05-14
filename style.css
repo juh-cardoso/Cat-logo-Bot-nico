@@ -1,3 +1,10 @@
+body {
+  background-color: #d4b798; /* escolha a cor que quiser */
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; /* opcional */
+}
+
 dy {
   margin: 0;
   font-family: 'Georgia', serif;
@@ -109,13 +116,6 @@ h1 {
   border-radius: 20px;
 }
 
-.card-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 200px;
-  background-color: #d4b798; /* ou a cor que quiser */
-}
 .cards {
   display: flex;
   justify-content: space-around;
