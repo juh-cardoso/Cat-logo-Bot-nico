@@ -159,29 +159,6 @@ h1 {
   font-family: 'Georgia', serif;
 }
 
-.caixa {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 30px;
-  background-color: #d4b798;
-  flex-wrap: nowrap;
-}
-
-/* Cada caixa */
-.caixa {
-  background-color: #bfa58a;
-  width: 23%;
-  height: 350px;
-  border-radius: 15px;
-  box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
 /* Título com ícone */
 .titulo {
   display: flex;
