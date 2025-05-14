@@ -113,7 +113,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 340px;
+  padding: 200px;
   background-color: #d4b798; /* ou a cor que quiser */
 }
 .cards {
