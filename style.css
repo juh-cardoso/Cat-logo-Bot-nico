@@ -153,35 +153,48 @@ h1 {
   margin-bottom: 10px;
 }
 
-.card-title {
-  font-weight: bold;
-  font-size: 20px;
-  font-family: 'Georgia', serif;
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+  background-color: #d4b798;
 }
 
-/* Título com ícone */
+.caixa {
+  background-color: #bfa58a;
+  width: 23%;
+  height: 350px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 .titulo {
   display: flex;
   align-items: center;
   gap: 10px;
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .titulo i {
-  font-size: 24px;
+  font-size: 22px;
+  color: #3e2d1f;
 }
 
-/* Links centralizados na caixa */
 .conteudo {
-  flex-grow: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 12px;
-  width: 100%;
+  align-items: center;
   text-align: center;
+  gap: 10px;
 }
 
 .conteudo a {
