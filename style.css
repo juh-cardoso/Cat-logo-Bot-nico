@@ -216,6 +216,6 @@ h1 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 140px;
+  padding: 340px;
   background-color: #d4b798; /* ou a cor que quiser */
 }
