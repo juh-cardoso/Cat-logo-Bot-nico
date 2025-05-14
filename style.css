@@ -104,7 +104,7 @@ h1 {
   overflow-y: auto;
 }
 
-.container {
+ .container {
     display: flex;
     justify-content: space-around;
     padding: 30px;
