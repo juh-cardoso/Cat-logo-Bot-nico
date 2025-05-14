@@ -103,15 +103,28 @@ h1 {
   padding: 20px;
   overflow-y: auto;
 }
+.login-card button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #5e4b44;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+}
 
 .cards {
   display: flex;
   justify-content: space-around;
-  padding: 20px;
-  background-color: #d0b090;
+  padding: 30px;
+  background-color: #d3b99c;
 }
 
 .card {
+  width: 22%;
+  height: 150px;
   background-color: #ac9276;
   width: 22%;
   height: 300px; 
