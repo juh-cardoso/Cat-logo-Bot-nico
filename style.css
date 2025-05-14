@@ -104,7 +104,7 @@ h1 {
   overflow-y: auto;
 }
 
- .container {
+ .caixa {
     display: flex;
     justify-content: space-around;
     padding: 30px;
