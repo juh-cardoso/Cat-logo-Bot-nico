@@ -1,4 +1,4 @@
-body {
+dy {
   margin: 0;
   font-family: 'Georgia', serif;
   background-color: #d3b99c;
@@ -43,7 +43,7 @@ nav a {
 
 .left {
   flex: 1;
-  background: url("img/papel.jpg");
+  background: url('img/papel.jpg');
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -76,7 +76,7 @@ h1 {
 
 .right {
   flex: 1;
-  background: url("img/flores.jpg") no-repeat center center;
+  background: url('img/flores.jpg') no-repeat center center;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -93,16 +93,10 @@ h1 {
 
 .user-icon img {
   width: 60px;
-  height: 60px;.card.especial {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start; 
-  text-align: center;
-  height: 350px;
-  padding: 20px;
-  overflow-y: auto;
+  height: 60px;
+  margin-bottom: 20px;
 }
+
 .login-card button {
   display: block;
   width: 100%;
@@ -126,11 +120,23 @@ h1 {
   width: 22%;
   height: 150px;
   background-color: #ac9276;
+  border-radius: 5px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #d0b090;
+}
+
+.card {
+  background-color: #ac9276;
   width: 22%;
-  height: 300px; 
+  height: 300px; /* já ajustado como retângulo em pé */
   border-radius: 20px;
   display: flex;
-  align-items: flex-start; 
+  align-items: flex-start; /* conteúdo no topo */
   justify-content: center;
   padding-top: 15px;
 }
