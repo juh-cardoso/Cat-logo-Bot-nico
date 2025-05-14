@@ -97,69 +97,45 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* muda para flex-start para deixar espaço para a lista */
+  justify-content: flex-start; 
   text-align: center;
   height: 350px;
   padding: 20px;
   overflow-y: auto;
 }
 
-/* Container principal */
-.container {
+.cards {
   display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 30px;
-  background-color: #d4b798;
-  flex-wrap: nowrap;
-}
-
-/* Cada caixa */
-.caixa {
-  background-color: #bfa58a;
-  width: 23%;
-  height: 350px;
-  border-radius: 15px;
-  box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
   padding: 20px;
-  box-sizing: border-box;
+  background-color: #d0b090;
 }
 
-/* Título com ícone */
-.titulo {
+.card {
+  background-color: #ac9276;
+  width: 22%;
+  height: 300px; 
+  border-radius: 20px;
   display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 20px;
+  align-items: flex-start; 
+  justify-content: center;
+  padding-top: 15px;
 }
 
-.titulo i {
-  font-size: 24px;
-}
-
-/* Links centralizados na caixa */
-.conteudo {
-  flex-grow: 1;
+.card-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 12px;
-  width: 100%;
-  text-align: center;
+  align-items: center;
 }
 
-.conteudo a {
-  text-decoration: none;
-  color: #222;
-  font-weight: 500;
-  transition: color 0.2s ease;
+.card-icon {
+  width: 40px;
+  height: auto;
+  margin-bottom: 10px;
 }
 
-.conteudo a:hover {
-  color: #4a3b2c;
+.card-title {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Georgia', serif;
 }
