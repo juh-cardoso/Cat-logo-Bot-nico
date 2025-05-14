@@ -153,57 +153,61 @@ h1 {
   margin-bottom: 10px;
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 30px;
-  background-color: #d4b798;
-}
-
-.caixa {
-  background-color: #bfa58a;
-  width: 23%;
+.card.especial {
+  width: 22%;
   height: 350px;
+  background-color: #bfa58a;
   border-radius: 15px;
-  box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
   padding: 20px;
+  margin: 15px;
   box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
 }
 
-.titulo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+/* Ícone e título lado a lado */
+.card-title {
+  display: inline-block;
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 15px;
+  vertical-align: middle;
+  margin-left: 10px;
 }
 
-.titulo i {
-  font-size: 22px;
-  color: #3e2d1f;
+.card-icon {
+  width: 28px;
+  vertical-align: middle;
 }
 
-.conteudo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 10px;
+/* Links centralizados dentro da caixa */
+.card-links {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
 }
 
-.conteudo a {
+.card-links li {
+  margin: 10px 0;
+}
+
+.card-links a {
   text-decoration: none;
-  color: #222;
+  color: #2c1d0f;
   font-weight: 500;
-  transition: color 0.2s ease;
+  transition: color 0.3s ease;
 }
 
-.conteudo a:hover {
+.card-links a:hover {
   color: #4a3b2c;
+}
+
+/* Responsivo: deixa empilhar em telas menores */
+@media (max-width: 900px) {
+  .card.especial {
+    width: 100%;
+    margin: 10px auto;
+    display: block;
+  }
 }
