@@ -1,10 +1,14 @@
-body {
-  background-color: #d4b798; /* escolha a cor que quiser */
+html, body {
+  height: 100%;
+  background-color: #d4b798;
   margin: 0;
   padding: 0;
-  font-family: sans-serif; /* opcional */
+  font-family: sans-serif;
 }
 
+main, header, footer, .card-container {
+  background-color: transparent;
+}
 dy {
   margin: 0;
   font-family: 'Georgia', serif;
