@@ -211,3 +211,11 @@ h1 {
     display: block;
   }
 }
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px;
+  background-color: #d4b798; /* ou a cor que quiser */
+}
